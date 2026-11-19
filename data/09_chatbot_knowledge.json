@@ -1,0 +1,29 @@
+{
+  "system": "AgriSense AI Smart Agriculture Knowledge Base",
+  "languages_supported": ["en", "ta", "hi", "tanglish"],
+  "rules": {
+    "tanglish_is_first_class": true,
+    "crop_recommendation_prohibited": true,
+    "fertilizer_recommendation_prohibited": true
+  },
+  "common_queries": [
+    {
+      "intent": "tomato_yellow_leaves",
+      "tanglish_example": "En thakkali ilai yellow ah maaruthu, enna problem?",
+      "tanglish_response": "Thakkali ilai yellow aagurathukku pala reasons irukkalam thozhare! 1) Thanneer athigama illana kuraiva irundha root stress aagum, 2) Nitrogen sathu korai iruntha bottom leaves yellow aagum, 3) Early Blight fungal infection illana Whitefly moolama varum Leaf Curl virus irukkalam. Clear-aana leaf photo-va AgriSense Scanner-la upload pannunga, udane exact solution therinjukalam!",
+      "tamil_response": "தக்காளி இலைகள் மஞ்சள் நிறமாக மாறுவதற்கு மண் ஈரப்பதம் குறைவு, நைட்ரஜன் பற்றாக்குறை அல்லது ஆரம்பக்கால பிளைட் பூஞ்சை நோய் காரணமாக இருக்கலாம். தெளிவான இலை புகைப்படத்தை அக்ரிசென்ஸ் ஸ்கேனரில் பரிசோதிக்கவும்.",
+      "hindi_response": "टमाटर की पत्तियां पीली होने का कारण अत्यधिक या कम पानी, नाइट्रोजन की कमी या अगेती झुलसा रोग हो सकता है। कृपया एग्रीसेंस स्कैनर में पत्ती की तस्वीर अपलोड करें।"
+    },
+    {
+      "intent": "rice_blast_control",
+      "tanglish_example": "Nel payir-la blast noi epdi control panrathu?",
+      "tanglish_response": "Nel Blast (Magnaporthe oryzae) vantha udane: 1) Thanneerai 2 naal vadithu vidunga (drain standing water), 2) Urea/Nitrogen poduvathai niruthunga, 3) Iyarkai muraiyila Pseudomonas fluorescens @ 2g/L thaliyaanga, 4) Thevaipattaal Tricyclazole 75% WP @ 0.6 g/L spray pannunga.",
+      "tamil_response": "நெல் பிளாஸ்ட் நோய்க்கு உடனடியாக வயலில் உள்ள தண்ணீரை வடித்துவிடவும். தழைச்சத்து (யூரியா) இடுவதை தற்காலிகமாக நிறுத்தவும். சூடோமோனாஸ் அல்லது டிரைசைக்ளசோல் 75% WP தெளிக்கவும்."
+    },
+    {
+      "intent": "smart_drip_timing",
+      "tanglish_example": "Thottam-la thanni paasana neram eppo nalladhu?",
+      "tanglish_response": "Drip irrigation-kku kaalai 6:00 AM mudhal 8:30 AM varai illana maalai 5:00 PM pinbu thaan best time. Suriya veyil-la thanni aaviyaga pogama verukku nallaa serum, ilaiyil fungi attack aaguradhum thadukkappadum!"
+    }
+  ]
+}

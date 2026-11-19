@@ -1,0 +1,6 @@
+{
+  "name": "AgriSense AI – Smart Agriculture",
+  "description": "Comprehensive smart agriculture platform for farmers featuring plant disease detection from leaf images, smart irrigation planning, pest risk prediction, plant growth monitoring, farm health score, weather alerts, multilingual AI chatbot, agricultural marketplace, and government schemes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
